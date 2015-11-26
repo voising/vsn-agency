@@ -40,9 +40,10 @@ $(function() {
         data: $(this).serialize(),
         dataType: "json"
       }).done(function(data){
-        $form.find('input, textarea').val('');
+        $form.find('input:visible, textarea').val('');
         $('.cs-placeholder').each(function(){
           $(this).html($(this).next().next().find('option:first').html());
+          $(this).closest(".cs-select").removeClass("done");
         });
         $button = $form.find('button');
         $button.html($button.data('sent-text'));
