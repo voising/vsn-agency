@@ -1031,6 +1031,7 @@ button[type=submit] {
 .sent:active,
 .sent:focus,
 .sent {
+    white-space: normal;
     pointer-events: none;
     background-color: #2DAF4A;
     border-color: #2DAF4A;
