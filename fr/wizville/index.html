@@ -388,14 +388,14 @@
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Nom</label>
-							<input type="text" name="name" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Please enter your name.">
+							<input type="text" name="name" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Merci de remplir ce champ">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Email</label>
-							<input type="email" name="_replyto" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
+							<input type="email" name="_replyto" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Merci de remplir ce champ"  data-validation-validemail-message="E-mail non valide">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -406,7 +406,7 @@
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
 							<label>Message</label>
-							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+							<textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Merci de remplir ce champ"></textarea>
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -414,7 +414,7 @@
 					<div id="success"></div>
 					<div class="row">
 						<div class="form-group col-xs-12">
-							<button type="submit" class="btn btn-success btn-lg pull-right js-send-form" data-sent-text="Envoyé">Envoyer</button>
+							<button type="submit" class="btn btn-success btn-lg pull-right js-send-form" data-sent-text="Votre message a bien été envoyé. Vous recevrez une réponse dans les 48h.">Envoyer</button>
 						</div>
 					</div>
 				</form>

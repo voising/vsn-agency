@@ -1012,6 +1012,27 @@ div.cs-skin-underline {
     font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #f7f7f7;
 }
+
+.text-thanks {
+    color: #2DAF4A;
+    display: none;
+    margin-top: 20px;
+}
+.help-block ul {
+    padding: 0 20px;
+}
+
+button[type=submit] {
+    min-width: 130px;
+}
+.sent:active,
+.sent:focus,
+.sent {
+    pointer-events: none;
+    background-color: #2DAF4A;
+    border-color: #2DAF4A;
+    width: 100%;
+}
 @media(max-width:1024px) {
     .cs-skin-underline > span::after {
         right: 1.25em;

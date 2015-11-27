@@ -31,23 +31,25 @@ $(function() {
     });
 
     $('form').on('submit', function(e){
-
       e.preventDefault();
-      $form = $(this);
-      $.ajax({
-        url: this.action,
-        type: "POST",
-        data: $(this).serialize(),
-        dataType: "json"
-      }).done(function(data){
-        $form.find('input:visible, textarea').val('');
-        $('.cs-placeholder').each(function(){
-          $(this).html($(this).next().next().find('option:first').html());
-          $(this).closest(".cs-select").removeClass("done");
-        });
+      if (this.checkValidity()) {
+        $form   = $(this);
         $button = $form.find('button');
-        $button.html($button.data('sent-text'));
-      });
+        $button.html('<i class="fa fa-spin fa-spinner"></i>');
+        $.ajax({
+          url: this.action,
+          type: "POST",
+          data: $(this).serialize(),
+          dataType: "json"
+        }).done(function (data) {
+          $form.find('input:visible, textarea').val('');
+          $('.cs-placeholder').each(function () {
+            $(this).html($(this).next().next().find('option:first').html());
+            $(this).closest(".cs-select").removeClass("done");
+          });
+          $button.html($button.data('sent-text')).addClass('sent');
+        });
+      }
 
     });
 });
