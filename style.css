@@ -206,7 +206,7 @@ a.navbar-brand {
         transition: all 0.3s;
     }
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        padding-top: 1.5em;
+        padding-top: 1.6em;
     }
 }
 @media(min-width:1025px) {
