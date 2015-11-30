@@ -184,6 +184,11 @@ header .intro-text .skills {
     padding-top: 12px;
 }
 
+.badge {  border-radius: 6px; }
+.badge.back  { background-color: #e74c3c }
+.badge.front { background-color: #2DAF4A }
+.badge.sys   { background-color: #378caf }
+
 a.navbar-brand {
     width: 350px;
 }
