@@ -5,45 +5,9 @@
     <description>VSN Agency, distributeur des sangles The Hand, guitares Tokai..</description>
     <link>https://voisinf.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 27 Dec 2015 12:51:31 +0100</pubDate>
-    <lastBuildDate>Sun, 27 Dec 2015 12:51:31 +0100</lastBuildDate>
+    <pubDate>Sun, 27 Dec 2015 14:11:38 +0100</pubDate>
+    <lastBuildDate>Sun, 27 Dec 2015 14:11:38 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
-    
-      <item>
-        <title>Project 1</title>
-        <description>{&quot;fr&quot;=&gt;&quot;Méthodologies Agile - Développements réguliers front et back&quot;, &quot;en&quot;=&gt;&quot;Agile development methodologies - Regular front-end &amp; back-end developments&quot;}</description>
-        <pubDate>Tue, 12 May 2015 00:00:00 +0200</pubDate>
-        <link>https://voisinf.github.io/wizville/</link>
-        <guid isPermaLink="true">https://voisinf.github.io/wizville/</guid>
-        
-        
-        <category>Ruby on Rails</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 2</title>
-        <description>{&quot;en&quot;=&gt;&quot;E-shop for a brand new clothesline&quot;, &quot;fr&quot;=&gt;&quot;Mise en place d&#39;un e-commerce pour une marque de vêtements bio. Widgets customisés. Formation au SEO.&quot;}</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://voisinf.github.io/vertcorps/</link>
-        <guid isPermaLink="true">https://voisinf.github.io/vertcorps/</guid>
-        
-        
-        <category>E-commerce</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 3</title>
-        <description>{&quot;en&quot;=&gt;&quot;One page design website for a great magician&quot;, &quot;fr&quot;=&gt;&quot;Site web d&#39;artiste One Page Design. Tout le contenu du site est sur une seule page pour une meilleure communication.&quot;}</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0200</pubDate>
-        <link>https://voisinf.github.io/chris-magicien/</link>
-        <guid isPermaLink="true">https://voisinf.github.io/chris-magicien/</guid>
-        
-        
-        <category>One page</category>
-        
-      </item>
     
   </channel>
 </rss>
